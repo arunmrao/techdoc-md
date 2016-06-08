@@ -76,5 +76,5 @@ exec pandoc -f $OPTS \
         --default-image-extension=pdf \
         --chapters \
         --template=templates/default.latex \
-        -o /output/output.pdf \
+        -o /output/output.docx \
         *.mdp meta/*.yaml templates/*.yaml
